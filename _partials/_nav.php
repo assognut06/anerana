@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xxl bg-dark fixed-top" data-bs-theme="dark">
+<nav class="navbar navbar-expand-xxl bg-dark" data-bs-theme="dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="?page=index"><img src="images/logo_trans-min.png" alt="Logo de Association ANERANA" class="logoNavbar"> ANERANA</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
