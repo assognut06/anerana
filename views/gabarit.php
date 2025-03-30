@@ -1,7 +1,7 @@
 <?php require_once '_partials/_header.php'; ?>
 
 <body>
-    <header>
+    <header class="sticky-top position-sticky">
         <?php require_once '_partials/_nav.php' ?>
     </header>
     <main role="main">
