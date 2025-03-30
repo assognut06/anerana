@@ -9,7 +9,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) {
     if (isset($_GET['item']) && $_GET['item'] === 'payments') {     
         include_once 'views/admin/includes/payments/payments.php';
     }
-    echo "<p class='text-center'>Bienvenue sur la page admin !</p>";
+    echo "<br><p class='text-center'>Bienvenue sur la page admin !</p>";
     $contenu = ob_get_clean();
     require_once 'views/admin/gabarit.php';
     exit;

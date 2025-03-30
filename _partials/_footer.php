@@ -41,7 +41,7 @@
       <br>
       <p class="fs-4">Numéro RNA : W062019708</p>
       <br>
-      <!-- <p class="fs-4">Numéro de Siren : 922 418 827</p> -->
+      <p class="fs-4">Numéro de Siren : 940 365 166</p>
     </div>
   </div>
   <div class="col-12 text-center bg-dark py-5">
@@ -50,9 +50,9 @@
     <br>
     <div class="col-12 d-flex flex-row justify-content-around ">
       <a href="https://www.facebook.com/groups/1880334749130076" style="display:block" target="_blank" data-block-id="-7"><img width="40" height="auto" style="border:0;width:40px;height:auto;max-width:100%;display:block;background-color:blue;" alt="Facebook icon" src="https://dim.mcusercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Ffacebook-filled-light-40.png?w=40&dpr=2" class="icon-footer" /></a></td>
-      <a href="#" style="display:block" target="_blank" data-block-id="-8"><img width="40" height="auto" style="border:0;width:40px;height:auto;max-width:100%;display:block;background-color:deeppink;" alt="Instagram icon" src="https://dim.mcusercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Finstagram-filled-light-40.png?w=40&dpr=2" class="icon-footer" /></a></td>
+      <a href="https://www.instagram.com/assoanerana?igsh=MWUxNGNyYWppczk2bQ==" style="display:block" target="_blank" data-block-id="-8"><img width="40" height="auto" style="border:0;width:40px;height:auto;max-width:100%;display:block;background-color:deeppink;" alt="Instagram icon" src="https://dim.mcusercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Finstagram-filled-light-40.png?w=40&dpr=2" class="icon-footer" /></a></td>
       <a href="#" style="display:block" target="_blank" data-block-id="-9"><img width="40" height="auto" style="border:0;width:40px;height:auto;max-width:100%;display:block;background-color:black;" alt="Twitter icon" src="https://dim.mcusercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Ftwitter-filled-light-40.png?w=40&dpr=2" class="icon-footer" /></a></td>
-      <a href="mailto:pierre.marseille@sfr.fr" style="display:block" target="_blank" data-block-id="-10"><img width="40" height="auto" style="border:0;width:40px;height:auto;max-width:100%;display:block;background-color:forestgreen;" alt="Email icon" src="https://dim.mcusercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Femail-filled-light-40.png?w=40&dpr=2" class="icon-footer" /></a></td>
+      <a href="mailto:contact@anerana.org" style="display:block" target="_blank" data-block-id="-10"><img width="40" height="auto" style="border:0;width:40px;height:auto;max-width:100%;display:block;background-color:forestgreen;" alt="Email icon" src="https://dim.mcusercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Femail-filled-light-40.png?w=40&dpr=2" class="icon-footer" /></a></td>
       <a href="#" style="display:block" target="_blank" data-block-id="-12"><img width="40" height="auto" style="border:0;width:40px;height:auto;max-width:100%;display:block;background-color:dodgerblue;" alt="LinkedIn icon" src="https://dim.mcusercontent.com/https/cdn-images.mailchimp.com%2Ficons%2Fsocial-block-v3%2Fblock-icons-v3%2Flinkedin-filled-light-40.png?w=40&dpr=2" class="icon-footer" /></a>
     </div>
   </div>
@@ -63,8 +63,8 @@
                                               $mois = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
                                               echo "Nous sommes le " . $jours[date('N') - 1] . ' ' . date('j') . ' ' . $mois[date('n') - 1] . ' ' . date('Y'); ?> - </li>
       <li class="list-inline-item"><a href="https://gnut06.org" target="_blank" class="link-light">&copy; Association ANERANA 2025 & <a href="https://www.gnut06.org" target="_blank" >Gnut 06</a>- Version 2.4.0</a></li>
-      <li class="list-inline-item text-danger">&middot; Site encore en construction</li>
-      <!-- <li class="list-inline-item"><a href="?page=rgpd" class="link-light">Mentions légales</a></li> -->
+      <!-- <li class="list-inline-item text-danger">&middot; Site encore en construction</li> -->
+      <li class="list-inline-item"><a href="?page=rgpd" class="link-light">Mentions légales</a></li>
     </ul>
   </div>
 </footer>

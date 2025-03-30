@@ -105,7 +105,7 @@
                 </table>
             </div>
             <div class="col-12 text-center">
-                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal_tier">Réservé</button>
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal_tier">Réserver</button>
                 <!-- Modal -->
                 <div class="modal fade modal-lg" id="modal_tier" tabindex="-1" aria-labelledby="ModalLabel_tier" aria-hidden="true">
                     <div class="modal-dialog">

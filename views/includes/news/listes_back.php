@@ -33,7 +33,7 @@
                             <div class="card shadow-lg" style="width: 21rem;">
                                 <?php
                                 $dir = 'images/news/'; // Spécifiez le chemin vers votre répertoire contenant les images
-                                $images = glob($dir . '/*.jpeg'); // Récupère tous les fichiers JPEG du répertoire
+                                $images = glob($dir . '/*.png'); // Récupère tous les fichiers JPEG du répertoire
 
                                 if (!empty($images)) {
                                     $randomImage = $images[array_rand($images)]; // Sélectionne aléatoirement une image parmi celles trouvées

@@ -10,7 +10,7 @@
           <a class="nav-link <?= (empty($_GET['page']) || ($_GET['page'] == "index")) ? "active" : "" ?>" aria-current="page" href="?page=index">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?= (!empty($_GET['news']) && $_GET['page'] == "news") ? "active" : "" ?>" href="?page=news">Actualités</a>
+          <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "news") ? "active" : "" ?>" href="?page=news">Actualités</a>
         </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -51,29 +51,32 @@
         <li class="nav-item">
           <a class="nav-link" href="https://gnut06-my.sharepoint.com/:p:/g/personal/gnut_gnut06_org/EWF1GZ9xibdFlb59cTLDpt4B1DtbBnk526A6JjOu-0dP0A?rtime=0eCPW1Mr3Eg" target="_blank">Présentation</a>
         </li> -->
-        <!-- <li class="nav-item dropdown">
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Soutenir ANERANA</a>
           <ul class="dropdown-menu">
             <li class="nav-item">
               <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "adhesion") ? "active" : "" ?>" href="?page=adhesion">Adhésion</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "boutique") ? "active" : "" ?>" href="?page=boutique">Boutique ANERANA</a>
-            </li>
-            <li class="nav-item">
+            </li> -->
+            <!-- <li class="nav-item">
               <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "don") ? "active" : "" ?>" href="?page=don">Faire un don</a>
-            </li>
+            </li> -->
           </ul>
-        </li> -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://gnut06-my.sharepoint.com/:p:/g/personal/anerana_gnut06_org/EUEHs5_Snt9Dqz5LAkfRAU0BPdkJn_MUL68b16OiCf4xKg?e=zm31OT"  target="_blank">Présentation</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "contact") ? "active" : "" ?>" href="?page=contact">Contact</a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "aPropo") ? "active" : "" ?>" href="?page=aPropos">A propos</a>
         </li> -->
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "admin") ? "active" : "" ?>" href="?page=admin">Administration</a>
-        </li>
+        </li> -->
       </ul>
     </div>
   </div>

@@ -1,21 +1,31 @@
 <!--Contenu Orders-->
 <?php
-if(isset($data_forms->pagination)){
+$totalCount = 0; // Initialisation de la variable $totalCount
+
+if (isset($data_forms->pagination)) {
     // Récupération des données de pagination
-$pageSize = $data_forms->pagination->pageSize;
-$totalCount = $data_forms->pagination->totalCount;
-$pageIndex = $data_forms->pagination->pageIndex;
-$totalPages = $data_forms->pagination->totalPages;
-$continuationToken = $data_forms->pagination->continuationToken;
+    $pageSize = $data_forms->pagination->pageSize;
+    $totalCount = $data_forms->pagination->totalCount;
+    $pageIndex = $data_forms->pagination->pageIndex;
+    $totalPages = $data_forms->pagination->totalPages;
+    $continuationToken = $data_forms->pagination->continuationToken;
 
-// Calcul des liens précédent et suivant
-$prevPage = max(1, $pageIndex - 1);
-$nextPage = min($totalPages, $pageIndex + 1);}
-
+    // Calcul des liens précédent et suivant
+    $prevPage = max(1, $pageIndex - 1);
+    $nextPage = min($totalPages, $pageIndex + 1);
+}
 ?>
 <div class="pt-0">
     <div class="mx-3">
-        <h2 class="my-5 text-success text-center"><?= isset($_GET['formSlug']) ? $data_forms->data[0]->order->formName : "Les billets de ANERANA" ?></h2>
+        <h2 class="my-5 text-success text-center">
+            <?php 
+            if (isset($_GET['formSlug']) && isset($data_forms->data[0]->order->formName)) {
+                echo htmlspecialchars($data_forms->data[0]->order->formName, ENT_QUOTES, 'UTF-8');
+            } else {
+                echo "Les billets de ANERANA";
+            }
+            ?>
+        </h2>
         <div class="border border-success mb-5 mx-5"></div>
         <div class="row align-items-start mx-auto">
             <div class="col-12">

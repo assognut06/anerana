@@ -8,11 +8,13 @@
     /*echo "<pre>";
                 print_r($_POST);
                 echo "</pre>";*/
-    $message = "Prénon : " . $_POST['first_name'] . "Nom : " . $_POST['last_name'] . "\nEmail : " . $_POST['email'] . " - Telephone : " . $_POST['tel'] . "\nMessage : " . $_POST['message'];
-    if (mail('pierre.marseille@sfr.fr', 'Message du site ANERANA sur Gnut06.org', $message)) {
-        echo '<p class="alert">Votre message a bien été envoyé</p>';
-    } else {
-        echo '<p class="alert alert-danger">Erreur lors de l\'envoi du message. Veuillez réessayer plus tard.</p>';
+    $message = "Prénon : " . $_POST['first_name'] . "\nNom : " . $_POST['last_name'] . "\nEmail : " . $_POST['email'] . " - Telephone : " . $_POST['tel'] . "\nMessage : " . $_POST['message'];
+    $headers = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/plain; charset=UTF-8' . "\r\n";
+    if (mail('anerana@gnut.eu', 'Message du site ANERANA sur Gnut06.org', $message, $headers)) {
+        echo '<p class="alert alert-success text-center">Votre message a bien été envoyé</p>';
+          } else {
+        echo '<p class="alert alert-danger text-center">Erreur lors de l\'envoi du message. Veuillez réessayer plus tard.</p>';
     }
   }
 

@@ -11,6 +11,7 @@
   <meta name="keywords" content="ANERANA, Association Nationale des Enfants de Rapatriés d'Afrique du Nord et leurs Amis, rapatriés d'Afrique du Nord, mémoire, culture, soutien communautaire, ateliers, histoire, patrimoine culturel">
   <meta name="author" content="Association ANERANA">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <title>L'Association Nationale des Enfants de Rapatriés d'Afrique du Nord et leurs Amis (ANERANA)</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
