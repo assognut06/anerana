@@ -1,5 +1,8 @@
 <div class="container pt-0">
     <div class="mx-3">
+    <?php if (!empty($data_actu->banner->publicUrl)) : ?>
+                    <img src="<?= htmlspecialchars($data_actu->banner->publicUrl) ?>" alt="Bannière de l'événement" class="img-fluid rounded-4 shadow-lg mb-3">
+                <?php endif; ?>
         <h2 class="my-5 text-success text-center"><?= $data_actu->title ?></h2>
         <div class="border border-success mb-5 mx-5 "></div>
         <div class="row justify-content-center">

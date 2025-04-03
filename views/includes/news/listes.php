@@ -31,7 +31,7 @@
                     if ($item->formType == "Event") { ?>
                         <div class="col d-flex justify-content-around my-3">
                             <div class="card shadow-lg" style="width: 21rem;">
-                                <?php
+                                <!-- <?php
                                 $dir = 'images/news/'; // Spécifiez le chemin vers votre répertoire contenant les images
                                 $images = glob($dir . '/*.png'); // Récupère tous les fichiers JPEG du répertoire
 
@@ -44,8 +44,9 @@
                                     echo 'Aucune image trouvée dans le répertoire.';
                                 }
 
-                                ?>
-                                <img src="<?= $randomImage ?>" class="card-img-top" alt="Evénements ANERANA">
+                                ?> -->
+                                <!-- <img src="<?= $randomImage ?>" class="card-img-top" alt="Evénements ANERANA"> -->
+                                <img src="<?= $item->logo->publicUrl ?>" class="card-img-top" alt="Evénements ANERANA">
                                 <div class="card-body">
                                     <h5 class="card-title text-center"><?= htmlspecialchars($item->title) ?></h5>
                                     <p class="card-text text-center">
