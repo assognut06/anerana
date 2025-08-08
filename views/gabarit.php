@@ -78,14 +78,19 @@
         </div>
       </div>
     </div> -->
+        <div class="text-center my-5">
+            <a href="https://framevr.io/anerana" target="_blank" class="btn btn-danger btn-lg">
+                Visiter la Galerie VR de ANERANA
+            </a>
+        </div>
         <p class="text-center mb-4 text-warning fs-2">Transmission de la culture pied-noir</p>
         <!-- <?php
-        if (empty($_GET['page']) || (!empty($_GET['page']) && $_GET['page'] != "adhesion")) {
-        ?>
+                if (empty($_GET['page']) || (!empty($_GET['page']) && $_GET['page'] != "adhesion")) {
+                ?>
 
             <h3 class="text-center mb-5 fs-1"><a href="?page=adhesion" class="badge text-bg-success p-4 text-uppercase">Adhérer</a></h3>
         <?php
-        } ?> -->
+                } ?> -->
 
 
         <?= $contenu;  ?>

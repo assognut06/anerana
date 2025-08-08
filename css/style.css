@@ -94,9 +94,7 @@ gmpx-store-locator {
 }
 
 /* Remove for complete responsive carousel */
-.carousel-item img {
-  max-height: 100vh;
-}
+
 .imgTop
 {
   height: 75px;

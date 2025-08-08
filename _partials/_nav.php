@@ -12,6 +12,9 @@
         <li class="nav-item">
           <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "news") ? "active" : "" ?>" href="?page=news">Actualités</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "bureau") ? "active" : "" ?>" href="?page=bureau">Le bureau</a>
+        </li>
         <!-- <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Nos Hubs
@@ -58,15 +61,12 @@
               <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "adhesion") ? "active" : "" ?>" href="?page=adhesion">Adhésion</a>
             </li>
             <!-- <li class="nav-item">
-              <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "boutique") ? "active" : "" ?>" href="?page=boutique">Boutique ANERANA</a>
-            </li> -->
-            <!-- <li class="nav-item">
               <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "don") ? "active" : "" ?>" href="?page=don">Faire un don</a>
             </li> -->
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="https://gnut06-my.sharepoint.com/:p:/g/personal/anerana_gnut06_org/EUEHs5_Snt9Dqz5LAkfRAU0BPdkJn_MUL68b16OiCf4xKg?e=zm31OT"  target="_blank">Présentation</a>
+          <a class="nav-link" href="https://gnut06-my.sharepoint.com/:p:/g/personal/anerana_gnut06_org/EUEHs5_Snt9Dqz5LAkfRAU0BPdkJn_MUL68b16OiCf4xKg?e=zm31OT" target="_blank">Présentation</a>
         </li>
         <li class="nav-item">
           <a class="nav-link <?= (!empty($_GET['page']) && $_GET['page'] == "contact") ? "active" : "" ?>" href="?page=contact">Contact</a>
